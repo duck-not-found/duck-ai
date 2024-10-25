@@ -1,7 +1,7 @@
 # duck-ai
-# DuckDuckGo Chat Library
+# DuckDuckGo Chat Script
 
-A Python library for interacting with the DuckDuckGo chat API.
+A Python script for interacting with the DuckDuckGo chat API.
 
 ## Features
 
@@ -11,12 +11,10 @@ A Python library for interacting with the DuckDuckGo chat API.
 
 ## Usage
 
-To use this library, simply import it into your Python script and create an instance of the `DuckDuckGoChat` class.
-
+To use this script, simply import it and use it
 ```python
-from duckduckgo_chat import DuckDuckGoChat
-
-chat = DuckDuckGoChat('your_api_key')
-chat.send_message('Hello, world!')
+pip install requests
+pip install json
+python duckduckgo_chat.py
 ```
 STILL UNDER DEVELLOPEMENT 
